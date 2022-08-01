@@ -12,7 +12,7 @@ export type StoreItem = {
   inCart: number;
 };
 
-export type StoreType = StoreItem;
+export type StoreType = Array<StoreItem>;
 
 function App() {
   const [store, setStore] = useState([
