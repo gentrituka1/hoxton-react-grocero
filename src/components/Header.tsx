@@ -1,7 +1,7 @@
 import { StoreItem, StoreType } from "../App";
 
 type Props = {
-  store: StoreType;
+  store: StoreType; //StoreType updated
   getItemImagePath: (item: StoreItem) => void;
   increaseCartQuantity: (item: StoreItem) => void;
 };
